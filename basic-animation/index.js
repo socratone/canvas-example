@@ -35,6 +35,6 @@ function drawBackground() {
 function drawCircle(x, y) {
   context.beginPath();
   context.fillStyle = 'white';
-  context.arc(x, y, 10, 0, Math.PI * 2, true);
+  context.arc(x, y, 50, 0, Math.PI * 2, true);
   context.fill();
 }
